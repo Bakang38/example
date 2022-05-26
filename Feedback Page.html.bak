@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  FeedBack form
+</title>
+      <link href="CSS-top-part.css"  rel="Stylesheet"  type="text/css">
+      <link href="footer-css.css"  rel="Stylesheet"  type="text/css">
+<style>
+    body{background-color:#fcad03	;}  
+    *{ box-sizing: border-box;
+			}
+   .looka{background-color:yellow;
+          display:inline-block;
+		  margin:20px 0 0 0;}
+   
+      
+  
+   .lookb{background-color:cyan;
+         display:block;
+         position:absolute;
+         margin:40px 0 0 0;
+         }
+		 
+	.lookc{background-color:pink;
+	       display:block;
+		   position:absolute;
+		   margin:97px 0 0 0;}
+</style>
+</head>
+<body>
+
+<section style="background-color:gray;">
+ <header>
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Daily%20Packed%20theater%20Homepage.html"><h1>Daily Packed Theatre</h1> </a>
+ </header>
+ 
+ <div class="Menu">
+  <button class="dropdownbtn">Movies Info</button>
+  <div class="dropdown-characters">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Movies%20In%20Theatre.html">Movies in Theatre</a>
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Upcoming%20Movies.html">Upcoming Movies</a>
+  </div>
+  </div>
+  
+  <div class="Menu2">
+  <button class="dropdownbtn2">Create Account</button>
+  <div class="dropdown-characters2">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Create%20Account%20Form.html">Register to become member of our theatre</a>
+  </div>
+  </div>
+  
+  <div class="Menu3">
+<button class="dropdownbtn3">Categories</button>
+<div class="dropdown-characters3">
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Action%20Movies.html">Action</a>
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Sci-Fi%20Movies.html">Sci-Fi</a>
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Animated%20Movies.html">Animation</a>
+</div>
+</div>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <div class="form search">
+<form  class="searchE" action="action_page.php">
+  <input type="text.." placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+  
+  </section>
+  
+
+
+<p style="color:white;font-size:2em;text-align:center;">We would apperiacte your veiws of the our website please give your feedback</p>
+<p style="color:white;font-size:2em;text-align:center;">We got two boxes left is approve and right is not</p>
+
+<div class="looka"> <label for="myCheck">do you like the service?:</label> 
+<input type="checkbox" id="myCheck" onclick="myFunction()">
+<input type="checkbox" id="myget" onclick="notFunction()"> </div>
+
+<p id="text" style="display:none">thank you!</p>
+<p id="get" style="display:none">sorry we will improve ourselves.</p>
+
+
+<div class="lookb"> <label for="my2">does the website bring the results fast enough?:</label> 
+<input type="checkbox" id="my2" onclick="mynotFunction()">
+<input type="checkbox" id="myget2" onclick="itFunction()"> 
+
+<p id="get3" style="display:none">thanks</p>
+<p id="get4" style="display:none">sorry we will try improve its responses .</p></div>
+
+
+<div class="lookc"> <label for="my3">do you like the movies we provide?:</label> 
+<input type="checkbox" id="my3" onclick="mFunction()">
+<input type="checkbox" id="myget3" onclick="iFunction()"> 
+
+<p id="get5" style="display:none">thanks</p>
+<p id="get6" style="display:none">sorry to hear that we'll try to do better.</p></div>
+
+<div style="margin-top:200px;">
+ <section class="footercolor">
+ <div class="container2">
+ <div class="row2">
+ <div class="column2">
+ <div class="footer">
+  <p style="text-decoration:underline 3px;">MORE INFO</p>
+  <a href=""> <p style="color:white;">Contact Details</p> </a>
+  <a href=""> <p  style="color:white;">UpComing Events</p> </a>
+  <a href=""> <p  style="color:white;">Directions</p> </a>
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Feedback%20Page.html"> <p  style="color:white;">FeedBack</p> </a>
+  </div>
+  </div>
+  
+  <div class="column2">
+  <div class="footer2">
+  <span style="color:white;">Follow us on:</span>
+  <span> <a href="https://facebook.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\facebook icon.jpg" style="height:29px;width:29px;"> </a> </span>
+  <span> <a href="https://instagram.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\intagram icon.jpg"style="height:29px;width:29px;"> </a> </span>
+  <span> <a href="https://youtube.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\youtube icon.jpg" style="height:29px;width:29px;"> </a> </span>
+  </div>
+  </div>
+  
+  <div class="column2">
+  <div class="logobtm">
+  <a href=""> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\toy story.jpg" alt="" style="height:140px;width:140px;"> </a>
+  </div>
+  </div>
+  
+  </div>
+  
+  <p style="color:white;text-decoration:overline;">(c) 2022 DAILY PACKED THEATRE.All rights reserved</p>
+  </div>
+  
+ </section>
+ </div>
+ 
+ <script>
+function myFunction() {
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("text");
+  if (checkBox.checked == true){
+    text.style.display = "inline";
+  } else {
+     text.style.display = "none";
+     }
+     
+}
+function notFunction() {
+  var checkBox = document.getElementById("myget");
+  var text = document.getElementById("get");
+  if (checkBox.checked == true){
+    text.style.display = "inline";
+  } else {
+     text.style.display = "none";
+     }
+     
+}
+
+function mynotFunction() {
+  var checkBox = document.getElementById("my2");
+  var text = document.getElementById("get3");
+  if (checkBox.checked == true){
+    text.style.display = "inline";
+  } else {
+     text.style.display = "none";
+     }
+     
+}
+function itFunction() {
+  var checkBox = document.getElementById("myget2");
+  var text = document.getElementById("get4");
+  if (checkBox.checked == true){
+    text.style.display = "inline";
+  } else {
+     text.style.display = "none";
+     }
+     
+}
+
+
+function mFunction() {
+  var checkBox = document.getElementById("my3");
+  var text = document.getElementById("get5");
+  if (checkBox.checked == true){
+    text.style.display = "inline";
+  } else {
+     text.style.display = "none";
+     }
+     
+}
+function iFunction() {
+  var checkBox = document.getElementById("myget3");
+  var text = document.getElementById("get6");
+  if (checkBox.checked == true){
+    text.style.display = "inline";
+  } else {
+     text.style.display = "none";
+     }
+     
+}
+</script>
+
+ </body>
+<html>

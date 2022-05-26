@@ -1,0 +1,330 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <title>
+	 Daily Packed Theatre
+	 </title>
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link href="CSS-top-part.css"  rel="Stylesheet"  type="text/css">
+	  <link href="footer-css.css"  rel="Stylesheet"  type="text/css">
+	 <style>
+	
+	
+	
+    body{background-color:#0b2c2e;}
+
+	     * {box-sizing: border-box;}
+         body {font-family: Verdana, sans-serif;}
+         .mySlides {display: none;}
+         
+		 
+		 
+		      
+			   
+   .slideshow-container {
+     width: 1064px;
+     position: relative;
+     margin: auto;
+                }
+
+
+.text {
+  color: #f2f2f2;
+  font-size:3em;
+  padding: 8px 12px  500px;
+  font-family:broadway;
+  padding-right:20px;
+  position: absolute;
+  bottom:8px;
+  width:90%;
+  text-align: right;
+}
+
+
+
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+ .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+      
+	  .container{position:relative;
+                 text-align:center;
+		         color:white; }
+	 
+      .column{float:left;}
+       
+      img{border-radius:15px;}
+	  
+      .row{content:"";
+           clear:both;
+           display:table;}		   
+	  
+	 .movie1 img, .movie2 img, .movie3 img, .movie4 img, .movie5 img, .movie6 img, .movie7 img, .movie8 img{padding:10px;}
+	 
+	                           
+	 @media screen and (max-width:768px){
+	  sec1{width:600px;}
+	  sect0{width:600px;}
+	  sect2{width600px;}
+	  sec3{width:600px;}
+	  }
+
+	 </style>
+ 
+ </head>
+ 
+ <body>
+ 
+ <div id="sec1">
+ <section style="background-color:gray;">
+ 
+ <header>
+ <h1>Daily Packed Theatre</h1>
+ </header>
+ 
+ <div class="Menu">
+  <button class="dropdownbtn">Theatre/Upcoming</button>
+  <div class="dropdown-characters">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Movies%20In%20Theatre.html">Movies in Theatre</a>
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Upcoming%20Movies.html">Upcoming Movies</a>
+  </div>
+  </div>
+  
+  <div class="Menu2">
+  <button class="dropdownbtn2">Create Account</button>
+  <div class="dropdown-characters2">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Create%20Account%20Form.html">Register to become member of our theater</a>
+  </div>
+  </div>
+  
+<div class="Menu3">
+<button class="dropdownbtn3">Categories</button>
+<div class="dropdown-characters3">
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Action%20Movies.html">Action</a>
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Sci-Fi%20Movies.html">Sci-Fi</a>
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Animated%20Movies.html">Animation</a>
+</div>
+</div>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <div class="form search">
+<form  class="searchE" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+  
+ </section>
+ </div>
+ 
+ <div style="margin-top:15px;" id="sect0">
+ <section style="background-color:#20393b;" >
+ 
+<div class="slideshow-container">
+
+<div class="mySlides fade">	
+  <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\black-panther-movie-poster-3d-wallpaper_1920x1080.jpg" style="height:600px;" style="width:338px">
+  <div class="text" >IN THEATRE</div>
+</div>
+
+<div class="mySlides fade">
+ <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\Joker.jpg" style="height:600px;" style="width:338px;">
+  <div class="text">UP COMING</div>
+</div>
+
+<div class="mySlides fade">
+ <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\The-Lion-King-Disney-Banner-1280x720.jpg" style="height:600px;" style="width:338px">
+  <div class="text">IN THEATRE</div>
+</div>
+
+
+<div class="mySlides fade">
+  <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\angel has fallen.jpg" style="height:600px;" style="width:338px">
+  <div class="text">UP COMING</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+ </section>
+ 
+ </div>
+ 
+ <div style="margin-top:18px;" id="sect2">
+ <section style="background-color:#0b2c2e;">
+ 
+  <div class="container">
+  <div class="row">
+  <div class="column">
+  <div class="movie1">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Star%20wars%20movie%20Page.html">
+  <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\the last jedi.jpeg" alt="the last jedi" style="width:330px;height:485px;"> </a>
+  <p>The last Jedi</p>
+  </div>
+  </div>
+  
+  <div class="column">
+  <div class="movie2">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/KONG%20movie%20page.html"> 
+  <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\Kong skull island.jpg" alt="Kong skull island" style="width:330px;height:485px;"></a>
+  <p>Kong</p>
+  </div>
+  </div>
+  
+  <div class="column">
+  <div class="movie3">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Mission%20impossible%20fallout%20page.html"> 
+  <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\Mission-Impossible-FAllout-poster-45936823.jpg" alt="Mission-Impossible-FAllout" style="width:330px;height:485px;"></a>
+  <p>MI Fallout</p>
+  </div>
+  </div>
+  
+  <div class="column">
+  <div class="movie4">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/IP%20man%204%20page.html">
+  <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\Ip_Man_4_The_Finale.webp" alt="Ip_Man_4_The_Finale" style="width:330px;height:485px;"></a>
+  <p>IP Man 4</p>
+  </div>
+  </div>
+  
+  <div class="column">
+  <div class="movie5">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/COCO%20page.html">
+  <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\Coco-1.jpg" alt="Coco-1" style="width:330px;height:485px;"></a>
+  <p>CoCo</p>
+  </div>
+  </div>
+  
+  <div class="column">
+  <div class="movie6">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/IT%20page.html">
+  <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\IT.jpg" alt="IT" style="width:330px;height:485px;"></a>
+  <p>IT</p>
+  </div>
+  </div>
+  
+  <div class="column">
+  <div class="movie7">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Oblivion%20page.html">
+  <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\oblivion.jpg" alt="oblivion" style="width:330px;height:485px;"></a>
+  <p>Oblivion</p>
+  </div>
+  </div>
+  
+  <div class="column">
+  <div class="movie8">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Toy%20Story%20page.html">
+  <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\toy story.jpg" alt="jpg" style="width:330px;height:485px;"></a>
+  <p>Toy Story 4</p>
+  </div>
+  </div>
+  
+ 
+ </div>
+ </section>
+ </div>
+ 
+ </div>
+ 
+ <div style="margin-top:18px;">
+ <section class="footercolor">
+ 
+ <div class="container2">
+ <div class="row2">
+ <div class="column2">
+ <div class="footer">
+  <p style="text-decoration:underline 3px;">MORE INFO</p>
+  <a href=""> <p style="color:white;">Contact Details</p> </a>
+  <a href=""> <p  style="color:white;">UpComing Events</p> </a>
+  <a href=""> <p  style="color:white;">Directions</p> </a>
+   <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Feedback%20Page.html"> <p  style="color:white;">FeedBack</p> </a>
+  </div>
+  </div>
+  
+  <div class="column2">
+  <div class="footer2">
+  <span style="color:white;">Follow us on:</span>
+  <span> <a href="https://facebook.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\facebook icon.jpg" style="height:29px;width:29px;"> </a> </span>
+  <span> <a href="https://instagram.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\intagram icon.jpg"style="height:29px;width:29px;"> </a> </span>
+  <span> <a href="https://youtube.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\youtube icon.jpg" style="height:29px;width:29px;"> </a> </span>
+  </div>
+  </div>
+  
+  <div class="column2">
+  <div class="logobtm">
+  <a href=""> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\pics for assignment\toy story.jpg" alt="" style="height:140px;width:140px;"> </a>
+  </div>
+  </div>
+  
+  </div>
+  
+  <p style="color:white;text-decoration:overline;">(c) 2022 DAILY PACKED THEATRE.All rights reserved</p>
+  </div>
+  
+ </section>
+ </div>
+ 
+ 
+ <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2500); 
+}
+</script>
+
+ 
+ </body>
+ 
+ 
+ 
+ </html>

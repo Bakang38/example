@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+     <title>
+	 IP MAN 4
+	 </title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link href="CSS-top-part.css"  rel="Stylesheet"  type="text/css">
+	 <link href="footer-css.css"  rel="Stylesheet"  type="text/css">
+	 <link href="Each-movie.css"  rel="Stylesheet"  type="text/css">
+	 <style>
+	
+	 </style>
+	 
+ </head>
+
+<body>
+
+
+
+<section style="background-color:gray;">
+ 
+ <header>
+ <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Daily%20Packed%20theater%20Homepage.html"><h1>Daily Packed Theatre</h1> </a>
+ </header>
+ 
+ <div class="Menu">
+  <button class="dropdownbtn">Theatre/Upcoming</button>
+  <div class="dropdown-characters">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Movies%20In%20Theatre.html">Movies in Theatre</a>
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Upcoming%20Movies.html">Upcoming Movies</a>
+  </div>
+  </div>
+  
+  <div class="Menu2">
+  <button class="dropdownbtn2">Create Account</button>
+  <div class="dropdown-characters2">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Create%20Account%20Form.html">Register to become member of our theater</a>
+  </div>
+  </div>
+  
+<div class="Menu3">
+<button class="dropdownbtn3">Categories</button>
+<div class="dropdown-characters3">
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Action%20Movies.html">Action</a>
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Sci-Fi%20Movies.html">Sci-Fi</a>
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Animated%20Movies.html">Animation</a>
+</div>
+</div>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <div class="form search">
+<form  class="searchE" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+  
+ </section>
+ 
+ <div style="margin-top:20px;">
+ <section style="background-color:#104d63;">
+ 
+ 
+  <div class="container4">
+  <div class="row4">
+  <div class="columnMovie">
+  <div class="movieCM">
+   <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\Ip_Man_4_The_Finale.webp" alt="Ip_Man_4_The_Finale" style="width:330px;height:485px;">
+  </div>
+  </div>
+  
+  
+   <div class="columnD" style="width:700px;height:115px;">
+  <div class="description1">
+  <p>Ip Man, a Kung Fu master, travels to the United States in order to rescue his student
+  who has caused conflict within the martial arts community.</p>
+  </div>
+  </div>
+  
+<div class="trailer">
+<iframe width="750" height="360" src="https://www.youtube-nocookie.com/embed/oCBGTCNJW2g" title="YouTube video player" frameborder="0"
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+ </div>
+ 
+ <div class="columnE">
+ <div class="locatime">
+ <p>Genre:Action <span class="createspace"></span> Duration:2h 05min <span class="createspace"></span>
+    Director: Wilson Yip <span class="createspace"></span> Date:10th Sep 2022 <span class="createspace"></span> PG-14</p>
+ </div>
+ </div>
+ 
+ </div>
+ </section>
+ </div>
+ 
+ <div>
+ <section style="background-color:cyan;">
+ <button type="request" class="ticketbutton"  name="tckbutt">Ticket</button>
+ </section>
+ </div>
+ 
+ <div style="margin-top:18px;">
+ <section class="footercolor">
+ 
+ <div class="container2">
+ <div class="row2">
+ <div class="column2">
+ <div class="footer">
+  <p style="text-decoration:underline 3px;">MORE INFO</p>
+  <a href=""> <p style="color:white;">Contact Details</p> </a>
+  <a href=""> <p  style="color:white;">UpComing Events</p> </a>
+  <a href=""> <p  style="color:white;">Directions</p> </a>
+   <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Feedback%20Page.html"> <p  style="color:white;">FeedBack</p> </a>
+  </div>
+  </div>
+  
+  <div class="column2">
+  <div class="footer2">
+  <span style="color:white;">Follow us on:</span>
+  <span> <a href="https://facebook.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\facebook icon.jpg" style="height:29px;width:29px;"> </a> </span>
+  <span> <a href="https://instagram.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\intagram icon.jpg"style="height:29px;width:29px;"> </a> </span>
+  <span> <a href="https://youtube.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\youtube icon.jpg" style="height:29px;width:29px;"> </a> </span>
+  </div>
+  </div>
+  
+  <div class="column2">
+  <div class="logobtm">
+  <a href=""> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\toy story.jpg" alt="" style="height:140px;width:140px;"> </a>
+  </div>
+  </div>
+  
+  </div>
+  
+  <p style="color:white;text-decoration:overline;">(c) 2022 DAILY PACKED THEATRE.All rights reserved</p>
+  </div>
+  
+ </section>
+ </div>
+ 
+  
+ </body>
+ 
+ 
+ </html>

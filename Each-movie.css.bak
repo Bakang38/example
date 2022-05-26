@@ -1,0 +1,46 @@
+ body{background-color:#0b2c2e;}
+	  * {box-sizing: border-box;}
+	 
+	 .container4{position:relative;
+                 font-size:1.4em;
+				 color:white;
+		                  }           
+      
+	  .columnMovie{float:left;
+	               margin:50px 20px 20px 60px;
+				   }
+	  
+	  
+	  .columnD{float:left;
+	           margin:23px 0 0 85px;
+			   overflow-wrap:break-word;
+			   }
+			   
+       img{border-radius:18px;}
+	   
+	   iframe{border-radius:18px;}
+			   
+	 .trailer{float:left;
+	          margin:20px 0 0 60px;}
+			   
+			  
+	  .row4{content:"";
+           clear:both;
+           display:table;}	
+	  
+	   .movieCM{padding:3px;}
+	  
+	  
+	  
+	   .columnE p{padding:0 0 0 380px;}
+	 
+	  .createspace{padding: 0 0 0 20px;}			                 
+	  
+	  .ticketbutton{font-size:1.3em;
+	                width:400px;
+	                height:70px;
+					border-radius:18px;
+					border:0.4px solid #babfbf;
+					box-shadow:3px 3px 1px #344242;
+					margin: 0 0 3px 480px;
+	                background-color:cyan;}	

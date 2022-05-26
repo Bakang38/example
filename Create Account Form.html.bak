@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+  DP Theatre Registration Form
+  </title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="CSS-top-part.css"  rel="Stylesheet"  type="text/css">
+ <link href="footer-css.css"  rel="Stylesheet"  type="text/css">
+ <style>
+       body {font-family: Arial;
+	         background-color:#d0f2f1;}
+           *{ box-sizing: border-box;
+			}
+
+
+           input[type=text], input[type=password] {
+               width: 100%;
+               padding: 15px;
+               margin: 5px 0 22px 0;
+               display: inline-block;
+               border: none;
+               background: #f1f1f1;
+                                  }
+
+          input[type=text]:focus, input[type=password]:focus {
+          background-color: #ddd;
+                                 }
+                              
+
+                    hr {
+                        border: 1px solid #f1f1f1;
+                        margin-bottom: 25px;
+                                          }
+
+
+           .createbtn, .cancelbtn{
+                   background-color: blue;
+                   color: white;
+                   padding: 14px 20px;
+                   margin: 8px 0;
+                   border: none;
+                   cursor: pointer;
+                   width: 100%;
+                   opacity: 0.9;
+                               }
+
+                  .createbtn ,.cancelbtn:hover {
+                               opacity:1;
+                                       }
+
+
+                  .cancelbtn {
+                              padding: 14px 20px;
+                              background-color: red;
+                              }
+
+                   .cancelbtn, .createbtn {margin-bottom:15px
+                   position:absolute;
+                   width: 50%;
+                              }
+
+
+                  .container {
+                  padding: 16px;
+                               }
+
+
+
+
+
+                  @media screen and (max-width: 300px) {
+                  .cancelbtn, .createbtn {
+                  width: 100%;
+                  }
+
+ </style>
+ 
+</head>
+
+<body>
+
+<section style="background-color:gray;">
+ <header>
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Daily%20Packed%20theater%20Homepage.html"><h1>Daily Packed Theatre</h1> </a>
+ </header>
+ 
+ <div class="Menu">
+  <button class="dropdownbtn">Movies Info</button>
+  <div class="dropdown-characters">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Movies%20In%20Theatre.html">Movies in Theatre</a>
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Upcoming%20Movies.html">Upcoming Movies</a>
+  </div>
+  </div>
+  
+  <div class="Menu2">
+  <button class="dropdownbtn2">Create Account</button>
+  <div class="dropdown-characters2">
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Create%20Account%20Form.html">Register to become member of our theatre</a>
+  </div>
+  </div>
+  
+  <div class="Menu3">
+<button class="dropdownbtn3">Categories</button>
+<div class="dropdown-characters3">
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Action%20Movies.html">Action</a>
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Sci-Fi%20Movies.html">Sci-Fi</a>
+<a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Animated%20Movies.html">Animation</a>
+</div>
+</div>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <div class="form search">
+<form  class="searchE" action="action_page.php">
+  <input type="text.." placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+  
+  </section>
+  
+<div style="margin-top:20px;">
+<section style="background-color:#68d2d4;">
+<form  action="Create Account form" style="border:3px solid #ccc">
+  <div class="container">
+    <h1>Fill Up Form</h1>
+    <p>Please fill in the form to get all the important info and get notified about events from the theatre.</p>
+    <hr>
+    
+     <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <input Type=”Button” name=”check” value=”check” onClick=”Check(name.value,psw.value)”>
+  <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="createbtn" name="crt">Create Account</button>
+    </div>
+  </div>
+</form>
+
+</section>
+ </div>
+ 
+ <div style="margin-top:18px;">
+ <section class="footercolor">
+ 
+ <div class="container2">
+ <div class="row2">
+ <div class="column2">
+ <div class="footer">
+  <p style="text-decoration:underline 3px;">MORE INFO</p>
+  <a href=""> <p style="color:white;">Contact Details</p> </a>
+  <a href=""> <p  style="color:white;">UpComing Events</p> </a>
+  <a href=""> <p  style="color:white;">Directions</p> </a>
+  <a href="file:///C:/Users/cse21-038/OneDrive%20-%20Botswana%20Accountancy%20College/Documents/WMD/yr1,Sm2.Assignment/Html%20Pages/Feedback%20Page.html"> <p  style="color:white;">FeedBack</p> </a>
+  </div>
+  </div>
+  
+  <div class="column2">
+  <div class="footer2">
+  <span style="color:white;">Follow us on:</span>
+  <span> <a href="https://facebook.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\facebook icon.jpg" style="height:29px;width:29px;"> </a> </span>
+  <span> <a href="https://instagram.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\intagram icon.jpg"style="height:29px;width:29px;"> </a> </span>
+  <span> <a href="https://youtube.com"> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\youtube icon.jpg" style="height:29px;width:29px;"> </a> </span>
+  </div>
+  </div>
+  
+  <div class="column2">
+  <div class="logobtm">
+  <a href=""> <img src="C:\Users\cse21-038\OneDrive - Botswana Accountancy College\Documents\WMD\yr1,Sm2.Assignment\Html Pages\toy story.jpg" alt="" style="height:140px;width:140px;"> </a>
+  </div>
+  </div>
+  
+  </div>
+  
+  <p style="color:white;text-decoration:overline;">(c) 2022 DAILY PACKED THEATRE.All rights reserved</p>
+  </div>
+  
+ </section>
+ </div>
+ 
+ 
+ <SCRIPT>
+ function check(x,y)
+ //alert("Leave from username");
+ 
+ var name=x;
+ var psw=y;
+ if(name=="")
+ alert("Blank space is invalid");
+ else
+ {
+ if(name>='A' && name<='Z')
+ alert("Correct Username");
+ else if(name>='a' && name<='z')
+ alert("Correct Username");
+ else
+ alert("Incorrect Username");
+ }
+ 
+ if(psw=="")
+ alert("Blank is invalid");
+ else
+ {
+ alert("Correct Passwword");
+ }
+ 
+ if(button==crt)
+ alert("Sign up complete");
+ esle
+ {
+ alert("sign up failed")
+ }
+ 
+ </SCRIPT>
+ 
+</body>
+
+
+
+
+</html>
+
+

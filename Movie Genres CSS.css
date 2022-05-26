@@ -1,0 +1,35 @@
+body{background-color:#0b2c2e;}
+	  * {box-sizing: border-box;}
+	  
+    .genre div {margin-top:18px;
+	            background-color:#93b2bf;}
+	 
+	 .genre div  header {color:white;
+	                     background-color:#93b2bf;
+	                     width:300px;
+	                     font-size:2em;
+						 text-align:center;
+		                  margin:0 0 0 520px;}
+	
+	.Genremovies  {background-color:#104d63;
+	                margin-top:15px;}
+	
+     .GNmoviescontainer{position:relative;
+                       text-align:center;
+					   color:white;}           
+      
+	
+	.GNmoviesrow{content:"";
+                 clear:both;
+                 display:table;}	
+					
+	.GNmovies1, .GNmovies2{float:left;}
+	
+	.GNmovies2{margin:12px 0 12px 240px;}
+	
+	.GNmovies1{margin:12px 0 12px 220px;}
+	
+	img{border-radius:15px;}
+	
+	.Genremovies p {font-size:1.3em;}
+	          
